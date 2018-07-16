@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>arduino_daq</name>
+  <version>1.0.1</version>
+  <description>AVR8 firmware, a host standalone C++ library, and a ROS node for UAL eCAR's Arduino-based DAQ system, but it is generic enough for use in many other applications</description>
+
+  <maintainer email="jlblanco@ual.es">Jose Luis Blanco Claraco</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>mrpt1</depend> <!-- Depend on mrpt1 ROS pkgs -->
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>message_generation</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
